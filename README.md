@@ -1,4 +1,4 @@
-# 微信小程序中的教务网爬虫服务
+# 教务网爬虫服务
 
 沈阳师范大学的教务网爬虫，服务部署到内网服务器，包括借鉴的机器学习识别验证码，基于Beautiful Soup，Requests的爬虫，以及flask进行任务调度，返回json格式的数据与公网服务器进行交互。
 
@@ -8,7 +8,7 @@
 pip3 install -r requirements.txt
 ```
 
-然后：
+运行：
 
 ```
 python3 main.py
